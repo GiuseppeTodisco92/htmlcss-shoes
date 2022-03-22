@@ -1,0 +1,49 @@
+/*----------------
+      reset
+------------------*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/*----------------
+      commons
+------------------*/
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+/*----------------
+      header
+------------------*/
+nav {
+  position: relative;
+}
+ul {
+  position: fixed;
+  top: 50px;
+  right: 30px;
+  display: inline;
+}
+
+li {
+  display: inline;
+  padding: 15px;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 100%;
+  padding: 10px 15px;
+  font-size: 15px;
+  font-weight: bold;
+  color: black;
+}
